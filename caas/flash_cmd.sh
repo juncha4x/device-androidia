@@ -7,6 +7,8 @@ MMC="/dev/mmcblk0"
 SIMG2IMG="/opt/simg2img/simg2img"
 PART_LIST=`mktemp`
 
+
+
 CMDLINE=`cat /proc/cmdline`
 for i in $CMDLINE
 do
